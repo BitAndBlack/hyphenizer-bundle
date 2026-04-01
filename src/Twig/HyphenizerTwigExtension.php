@@ -17,7 +17,7 @@ class HyphenizerTwigExtension extends AbstractExtension
             [
                 'is_safe' => [
                     'html',
-                ]
+                ],
             ],
         );
     }
@@ -33,7 +33,7 @@ class HyphenizerTwigExtension extends AbstractExtension
             return null;
         }
 
-        return new AutoHyphenation(
+        return (string) new AutoHyphenation(
             $input,
             updateLibraryWithIncomingWordsEnabled: false
         );

@@ -1,0 +1,19 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Method BitAndBlack\\HyphenizerBundle\\HyphenizerBundle\:\:loadExtension\(\) has parameter \$config with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/HyphenizerBundle.php
+
+		-
+			message: '#^Return type \(Generator\) of method BitAndBlack\\HyphenizerBundle\\Twig\\HyphenizerTwigExtension\:\:getFilters\(\) should be compatible with return type \(array\<Twig\\TwigFilter\>\) of method Twig\\Extension\\AbstractExtension\:\:getFilters\(\)$#'
+			identifier: method.childReturnType
+			count: 1
+			path: src/Twig/HyphenizerTwigExtension.php
+
+		-
+			message: '#^Return type \(Generator\) of method BitAndBlack\\HyphenizerBundle\\Twig\\HyphenizerTwigExtension\:\:getFilters\(\) should be compatible with return type \(array\<Twig\\TwigFilter\>\) of method Twig\\Extension\\ExtensionInterface\:\:getFilters\(\)$#'
+			identifier: method.childReturnType
+			count: 2
+			path: src/Twig/HyphenizerTwigExtension.php
