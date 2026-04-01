@@ -1,6 +1,6 @@
 {
     "name": "bitandblack/hyphenizer-bundle",
-    "description": "A Symfony bundle with custom console commands and a Twig filter.",
+    "description": "Perfect hyphenation for your Website. This library integrates the Hyphenizer into your Symfony project.",
     "license": "MIT",
     "type": "symfony-bundle",
     "authors": [
