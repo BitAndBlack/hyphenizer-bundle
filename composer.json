@@ -1,0 +1,37 @@
+{
+    "name": "bitandblack/hyphenizer-bundle",
+    "description": "A Symfony bundle with custom console commands and a Twig filter.",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=8.2",
+        "bitandblack/hyphenizer-sdk-php": "^0.6.0",
+        "kiwa/hyphenizer": "^1.0",
+        "nyholm/psr7": "^1.8",
+        "symfony/console": "^7.0 || ^8.0",
+        "symfony/framework-bundle": "^7.0 || ^8.0",
+        "symfony/http-client": "^8.0",
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BitAndBlack\\HyphenizerBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BitAndBlack\\HyphenizerBundle\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false
+        }
+    }
+}
