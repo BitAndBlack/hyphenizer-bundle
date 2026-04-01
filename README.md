@@ -89,7 +89,7 @@ The response will also be stored in the `words-hyphenated.json` file.
 If you don't want to wait, until your hyphenation list contains all words from your project, you can manually scan your files and extract the words from there:
 
 ```shell
-$ vendor/bin/kiwa-hyphenizer hyphenation:list:create 
+$ bin/console hyphenation:list:create 
 ```
 
 ### Using the hyphenations with JavaScript
