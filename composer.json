@@ -3,6 +3,24 @@
     "description": "A Symfony bundle with custom console commands and a Twig filter.",
     "license": "MIT",
     "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Tobias Köngeter",
+            "email": "hello@bitandblack.com",
+            "homepage": "https://www.bitandblack.com"
+        }
+    ],
+    "homepage": "https://www.hyphenizer.com",
+    "support": {
+        "email": "hello@bitandblack.com",
+        "issues": "https://bitbucket.org/wirbelwild/bit-black-sitemap/issues"
+    },
+    "funding": [
+        {
+            "type": "buymeacoffee",
+            "url": "https://www.buymeacoffee.com/tobiaskoengeter"
+        }
+    ],
     "require": {
         "php": ">=8.2",
         "bitandblack/hyphenizer-sdk-php": "^0",
