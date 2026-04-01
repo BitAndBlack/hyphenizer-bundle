@@ -11,7 +11,7 @@
 
 namespace BitAndBlack\HyphenizerBundle\EventListener;
 
-use Kiwa\Hyphenizer\HyphenationLibraryFactory;
+use BitAndBlack\HyphenizerBundle\HyphenationLibraryFactory;
 use Symfony\Component\EventDispatcher\Attribute\AsEventListener;
 use Symfony\Component\HttpKernel\Event\FinishRequestEvent;
 
