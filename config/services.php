@@ -24,6 +24,6 @@ return static function (ContainerConfigurator $container): void {
 
     $services->set(HyphenizerLibraryUpdateListener::class);
     $services->set(HyphenizerTwigExtension::class);
-    $services->set(HyphenationListCreateCommand::class::class);
+    $services->set(HyphenationListCreateCommand::class);
     $services->set(HyphenationListHyphenateCommand::class);
 };
