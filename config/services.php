@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Bit&Black Hyphenizer Bundle.
+ *
+ * @author Tobias Köngeter
+ * @copyright Copyright © Bit&Black
+ * @link https://www.bitandblack.com
+ * @license MIT
+ */
+
 use BitAndBlack\HyphenizerBundle\EventListener\HyphenizerLibraryUpdateListener;
 use BitAndBlack\HyphenizerBundle\Twig\HyphenizerTwigExtension;
 use Kiwa\Hyphenizer\Command\HyphenationListHyphenateCommand;
