@@ -14,8 +14,7 @@ namespace BitAndBlack\HyphenizerBundle;
 /**
  * This class exists only to not confuse you with a different namespace.
  *
- * @see \Kiwa\Hyphenizer\HyphenationLibraryFactory
+ * @see \Kiwa\Hyphenizer\AutoHyphenation
  */
-class HyphenationLibraryFactory extends \Kiwa\Hyphenizer\HyphenationLibraryFactory
-{
-}
+readonly class AutoHyphenation extends \Kiwa\Hyphenizer\AutoHyphenation
+{}

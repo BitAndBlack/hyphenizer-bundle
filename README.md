@@ -32,7 +32,7 @@ To use this library in your project, wrap your texts with the [`AutoHyphenation`
 ```php
 <?php
 
-use Kiwa\Hyphenizer\AutoHyphenation;
+use BitAndBlack\HyphenizerBundle\AutoHyphenation;
 
 echo new AutoHyphenation('Wir suchen nach Bodenseefelchen.');
 ```

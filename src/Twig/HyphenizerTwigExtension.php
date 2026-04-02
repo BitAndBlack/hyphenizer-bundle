@@ -11,8 +11,8 @@
 
 namespace BitAndBlack\HyphenizerBundle\Twig;
 
+use BitAndBlack\HyphenizerBundle\AutoHyphenation;
 use Generator;
-use Kiwa\Hyphenizer\AutoHyphenation;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
 
