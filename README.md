@@ -97,7 +97,7 @@ $ bin/console hyphenation:list:create
 If you want to use the hyphenations in JavaScript, you can use the [Hyphenation library written in JavaScript](https://www.npmjs.com/package/kiwa-hyphenizer) to do that. In this case, you need to import your `words-hyphenated.json` before initialising the class:
 
 ```javascript
-import Hyphenation from "kiwa-hyphenizer";
+import { Hyphenation } from "kiwa-hyphenizer";
 import hyphenatedWords from "hyphenation/words-hyphenated.json";
 
 const hyphenation = new Hyphenation(hyphenatedWords.words);
